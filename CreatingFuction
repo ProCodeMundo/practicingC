@@ -1,0 +1,14 @@
+#include <cs50.h>
+#include <stdio.h>
+//comments 
+
+//fuction
+int main(void)
+{
+    //Greeting user --Print hello and name
+    string answer = get_string("what is your name? ");
+    printf("Hello, %s", answer);
+    
+   
+   
+}
