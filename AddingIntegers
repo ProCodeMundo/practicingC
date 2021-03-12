@@ -5,6 +5,9 @@ int main(void)
 {
     int x = get_int("x: ");
     int y = get_int("y: ");
-
+  
+  //rember to add %i to print integer 
     printf("%i\n", x + y);
 }
+
+
