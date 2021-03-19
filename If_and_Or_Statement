@@ -1,0 +1,19 @@
+ #include <cs50.h>
+#include <stdio.h>
+
+/* initialize fuction*/
+int main(void)
+{
+    /*Creating a variable "Input variable"*/
+    char c = get_char("do you agree? ");
+
+    /* if Statement with or statement */
+    if (c == 'y' || c== 'Y')
+    {
+        printf("Agreed.\n");
+    }
+    else if (c == 'n' || c == 'N')
+    {
+        printf("Not agreed.\n");
+    }
+}
