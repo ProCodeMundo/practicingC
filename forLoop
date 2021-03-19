@@ -1,0 +1,26 @@
+#include <cs50.h>
+#include <stdio.h>
+//comments 
+
+
+int main(void)
+{
+    //Greeting user --Print hello and name
+    string answer = get_string("what is your name? ");
+    printf("Hello, %s\n", answer);
+    
+    int counter =0;
+    while(counter <9)
+    {
+        /*   %i is for integer and is to specific the format and location of the variable*/
+        printf("counting %i\n", counter);
+        /*in can be written as: counter = +1, Counter ++, or counter ++;*/
+        counter += 1;
+    }
+/*for Loop */
+    for (int i =0; i <=3; i++)
+    {
+        printf("Hello, %s\n%i", answer, i);
+    }
+   
+}
