@@ -1,0 +1,21 @@
+#include <cs50.h>
+#include <stdio.h>
+
+int main(void )
+{
+    //get Positive integer from user 
+    int n;
+    do 
+    {
+        n = get_int("Width: ");
+    }
+    while (n<1);
+    
+    //print out that many question mark
+    for (int i=0; i < n; i++ )
+    {
+        printf("?");
+    }
+    printf("\n");
+    
+}
